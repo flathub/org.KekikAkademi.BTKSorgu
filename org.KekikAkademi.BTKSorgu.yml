@@ -40,7 +40,7 @@ cleanup:
 modules:
 - SRC/python3-tkinter.yaml
 # ! Kurulumda İnternet Olmadığı için Gerekli
-- SRC/python3-requirements.json
+- SRC/python3-requirements.yaml
 
 # ! https://github.com/flathub/com.github.dynobo.normcap/blob/master/com.github.dynobo.normcap.yml
 - name: leptonica
@@ -89,4 +89,4 @@ modules:
   sources:
     - type: git
       url: https://github.com/keyiflerolsun/BTKSorgu.git
-      commit: 27d33d9b00ace22391b59535f993c489b28b22e5
+      commit: 9f39638cbecdcc67e654da59f10b4709937c6273
