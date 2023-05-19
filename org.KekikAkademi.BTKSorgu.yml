@@ -23,6 +23,20 @@ finish-args:
   # ! tesseract Erişim
   - --env=TESSDATA_PREFIX=/app/share/tessdata
 
+# ! tesseract Çöpü Temizle
+cleanup:
+  - /sbin
+  - /include
+  - /lib/cmake
+  - /lib/pkgconfig
+  - /bin/protoc
+  - /share/doc
+  - /share/pkgconfig
+  - /share/man
+  - /share/cmake*
+  - "*.a"
+  - "*.la"
+
 modules:
 - SRC/tesseract.yaml
 - SRC/python3-tkinter.yaml
@@ -49,4 +63,4 @@ modules:
   sources:
     - type: git
       url: https://github.com/keyiflerolsun/BTKSorgu.git
-      commit: 1abe6c3fbe392dd268c21f0183a6336617658af6
+      commit: 1dccacca5ac0c5f2064e83e339fd25c040030427
