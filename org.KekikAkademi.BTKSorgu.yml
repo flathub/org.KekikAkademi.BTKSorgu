@@ -63,4 +63,4 @@ modules:
   sources:
     - type: git
       url: https://github.com/keyiflerolsun/BTKSorgu.git
-      commit: a673d0bf69b341ba5e1f363c29e188004825b347
+      commit: 25ce49c53f81b0ff888ca2a4768373b3230faaa8
