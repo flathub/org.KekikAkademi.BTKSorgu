@@ -37,8 +37,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/39/03/6de23bdd88f5ee7f8b03f94f6e88108f5d7ffe6d207e95cdb06d9aa4cd57/rich-13.3.5-py3-none-any.whl
-        sha256: 69cdf53799e63f38b95b9bf9c875f8c90e78dd62b2f00c13a911c7a3b9fa4704
+        url: https://files.pythonhosted.org/packages/79/2c/165e0916c5488f0662637f49507480b7e9fc47428b478be2cc0d57664914/rich-13.4.0-py3-none-any.whl
+        sha256: db8c367c0fbe39f72334452ecfdd708e8f2a6b8d16b2c94f451775d6c86e3965
         x-checker-data:
           name: rich
           packagetype: bdist_wheel
@@ -70,8 +70,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/96/80/034ffeca15c0f4e01b7b9c6ad0fb704b44e190cde4e757edbd60be404c41/requests-2.30.0-py3-none-any.whl
-        sha256: 10e94cc4f3121ee6da529d358cdaeaff2f1c409cd377dbc72b825852f2f7e294
+        url: https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl
+        sha256: 58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f
         x-checker-data:
           name: requests
           packagetype: bdist_wheel
