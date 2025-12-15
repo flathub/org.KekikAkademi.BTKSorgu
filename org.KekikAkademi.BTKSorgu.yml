@@ -66,3 +66,5 @@ modules:
       commit: 1f2bb07e87e61686b5e19c59c83eb105f91a4820
     - type: patch
       path: fix_appdata.patch
+    - type: patch
+      path: fix_desktop.patch
